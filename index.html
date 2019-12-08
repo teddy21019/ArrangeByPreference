@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+        <script src="match.js"></script>
+        <script src="readXLS.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>教案配對</title>
+    </head>
+    <body>
+        <input type="file" id="upload">
+        <br>
+
+        <!-- 讓網頁知道有上傳東西的按鈕 -->
+        <script>
+            document.getElementById('upload').addEventListener('change', handleFileSelect, false);
+        </script>
+    </body>
+</html>
